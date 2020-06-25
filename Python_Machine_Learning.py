@@ -1,14 +1,16 @@
+import numpy as np
+from numpy.random import seed
+from matplotlib.colors import ListedColormap
+import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Perceptron
-from sklearn.metrics import accuracy_score
-import numpy as np
-from matplotlib.colors import ListedColormap
-import matplotlib.pyplot as plt
-from numpy.random import seed
-from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
+
+
 
 
 
